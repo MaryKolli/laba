@@ -1,0 +1,20 @@
+.user {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .user:hover {
+    color: #009999;
+  }
+  @media screen and (orientation: landscape) {
+    .user {
+      margin-left: 3vw;
+      font-size: 3vw;
+    }
+  }
+  @media screen and (orientation: portrait) {
+    .user {
+      margin-left: 4vw;
+      font-size: 6vw;
+    }
+  }
+  

@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .user {
+    color: gray;
+    text-decoration: underline;
+  }
+  .user:hover {
+    color: #009999;
+  }
+  .photo img {
+    width: 100%;
+    height: auto;
+  }
+  p {
+    color: gray;
+  }
+  @media screen and (orientation: landscape) {
+    h1 {
+      font-size: 3vw;
+    }
+    p {
+      margin-left: 3vw;
+      font-size: 2vw;
+    }
+  
+    .photo {
+      width: 30%;
+      margin: 1vw;
+    }
+  }
+  @media screen and (orientation: portrait) {
+    h1 {
+      font-size: 8vw;
+    }
+    p {
+      margin-left: 2vw;
+      font-size: 4vw;
+    }
+  
+    .photo {
+      width: 48%;
+      margin: 0.5vw;
+    }
+  }
+  

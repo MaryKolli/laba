@@ -1,0 +1,60 @@
+.navLink {
+    color: gray;
+    text-decoration: none;
+  }
+  .linkActive {
+    font-weight: bold;
+    text-decoration: none;
+    color: #006666;
+  }
+  footer .bsu {
+    margin-left: auto;
+  }
+  main {
+    display: flex;
+  }
+  hr.line {
+    background-color: #006666;
+  }
+  header {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+  }
+  @media screen and (orientation: landscape) {
+    header {
+      font-size: 2vw;
+  
+      gap: 2rem;
+    }
+    hr.line {
+      height: 0.1vw;
+    }
+  
+    footer {
+      font-size: 1.5vw;
+      padding-left: 1vw;
+      padding-top: 2vw;
+    }
+  }
+  @media screen and (orientation: portrait) {
+    header {
+      font-size: 4vw;
+      gap: 1rem;
+    }
+  
+    hr.line {
+      height: 0.1vw;
+    }
+    footer {
+      font-size: 3.5vw;
+      padding-left: 0.5vw;
+      padding-top: 1vw;
+    }
+  }
+  

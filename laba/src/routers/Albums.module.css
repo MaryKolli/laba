@@ -1,0 +1,30 @@
+.album:hover {
+    color: #009999;
+  }
+  .album {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  @media screen and (orientation: landscape) {
+    h1 {
+      margin-left: 3vw;
+      font-size: 3vw;
+    }
+  
+    .album {
+      margin-left: 3vw;
+      font-size: 2vw;
+    }
+  }
+  @media screen and (orientation: portrait) {
+    h1 {
+      margin-left: 2vw;
+      font-size: 8vw;
+    }
+  
+    .album {
+      margin-left: 2vw;
+      font-size: 5vw;
+    }
+  }
+  

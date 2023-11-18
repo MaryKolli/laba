@@ -1,0 +1,59 @@
+.inf p {
+    color: grey;
+  }
+  
+  .albumLink {
+    text-decoration: none;
+    color: #006666;
+  }
+  
+  .albumLink:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (orientation: landscape) {
+    .inf {
+      margin-left: 4vw;
+    }
+  
+    .inf p {
+      font-size: 2vw;
+      margin-top: -3vh;
+    }
+  
+    h1 {
+      font-size: 3vw;
+    }
+  
+    .albumList {
+      padding-left: 5vw;
+      margin-bottom: 1vw;
+    }
+    .albumLink {
+      font-size: 2vw;
+    }
+  }
+  
+  @media screen and (orientation: portrait) {
+    .inf {
+      margin-left: 1vw;
+    }
+  
+    .inf p {
+      font-size: 5vw;
+      margin-top: -3vw;
+    }
+  
+    h1 {
+      font-size: 8vw;
+    }
+  
+    .albumList {
+      padding-left: 1vw;
+      margin-bottom: 1vw;
+    }
+    .albumLink {
+      font-size: 5vw;
+    }
+  }
+  

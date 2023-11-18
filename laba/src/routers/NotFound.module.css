@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .heading {
+    margin-bottom: 3vw;
+  }
+  
+  .message {
+    margin-bottom: 3vw;
+  }
+  
+  .link {
+    color: #006666;
+    text-decoration: none;
+  }
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (orientation: landscape) {
+    .container {
+      margin-left: 30%;
+      height: 70vh;
+    }
+  
+    .heading {
+      font-size: 5vw;
+    }
+  
+    .message {
+      font-size: 3vw;
+    }
+  
+    .link {
+      font-size: 2vw;
+    }
+  }
+  
+  @media screen and (orientation: portrait) {
+    .container {
+      margin-left: 20%;
+      height: 80vh;
+    }
+  
+    .heading {
+      font-size: 10vw;
+    }
+  
+    .message {
+      font-size: 5vw;
+    }
+  
+    .link {
+      font-size: 6vw;
+    }
+  }
+  
